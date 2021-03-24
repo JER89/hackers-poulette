@@ -42,8 +42,8 @@
                     <input name="lastname" id="lastname" class="control" type="text" value="<?php echo isset ($_POST['lastname']) ? $_POST['lastname'] : '' ?>">
                     <label for="gender">Gender<?php echo "<em style='color:red;'>" . $errors['gender']."</em>"; ?></label>
                     <select name="gender" id="gender" class="control">
-                        <option value="Man" <?php echo ($_POST['gender'] == "Man") ? "selected" : "" ?>Man></option>
-                        <option value="Woman" <?php echo ($_POST['gender'] == "Woman") ? "selected" : "" ?>Woman></option>
+                        <option value="Man" <?php echo ($_POST['gender'] == "Man") ? "selected" : "" ?>>Man</option>
+                        <option value="Woman" <?php echo ($_POST['gender'] == "Woman") ? "selected" : "" ?>>Woman</option>
                     </select>
                 </div>
                 <div class="container col-6">
